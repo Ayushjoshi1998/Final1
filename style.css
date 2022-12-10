@@ -1,0 +1,30 @@
+
+#map {
+   /* position: absolute; */
+   width: auto;
+   height: 98vh;
+}
+
+.marker {
+  background-image: url('thermo.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+    .class1 {
+      border-top: 3px solid red;
+    }
+    .class2 {
+      border-top: 3px solid orange
+    }
+
+    .class3{
+      border-top: 3px solid yellow
+    }
+
+    .boundary{
+      border-top: 4px solid black;
+      opacity: .6
+    }
