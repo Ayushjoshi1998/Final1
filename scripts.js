@@ -9,6 +9,14 @@ bearing: 0,
 projection: 'globe',
 });
 
+var popup = L.popup({
+    closeButton: false,
+    autoClose: false
+  })
+  .setLatLng([85, 32])
+  .setContent('<p>Click on marker to see what we are at risk of losing</p>')
+  .openOn(map);
+
 map.on('load', () => {
     // Load an image from an external URL.
     map.loadImage(
